@@ -5,7 +5,7 @@
     style="@style/Theme.InverseLI2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cream"
+    android:background="@drawable/background"
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -40,14 +40,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:autoLink="all"
+            android:linksClickable="true"
             android:paddingLeft="15dp"
             android:paddingTop="60dp"
             android:paddingRight="15dp"
-            android:text="@string/About_info"
-            android:textSize="20sp"
             android:singleLine="false"
-            android:autoLink="all"
-            android:linksClickable="true"/>
+            android:text="@string/About_info"
+            android:textSize="20sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
